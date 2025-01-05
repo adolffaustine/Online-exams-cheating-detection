@@ -1,0 +1,5 @@
+<!-- gaze_recognition.html -->
+<form method="post" action="{% url 'gaze_recognition_view' %}">
+    {% csrf_token %}
+    <button type="submit">Start Gaze Recognition</button>
+</form>
